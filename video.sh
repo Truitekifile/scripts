@@ -1,5 +1,10 @@
 echo "Ne pas run en root"
-apt install mpv
+
+if ! command -v mpv &> /dev/null
+then
+    apt install mpv
+fi
+
 export DISPLAY=:0
 
 echo "Entrez le lien pour le téléchargement avec wget:"
