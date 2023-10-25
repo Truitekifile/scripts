@@ -4,6 +4,7 @@ echo
 sudo apt update
 apt install mpv -y
 echo ""
+rm -rf scripts/
 echo "Creation du répertoir scripts"
 
 
