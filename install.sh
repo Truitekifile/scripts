@@ -1,11 +1,11 @@
+echo
 echo "installation des prérequis"
 echo
 sudo apt update
 apt install mpv -y
 echo ""
 echo "Creation du répertoir scripts"
-mkdir scripts
-cd /scripts
+
 
 echo
 echo "Obtention de hals.sh"
@@ -24,7 +24,7 @@ echo "Obtention de video.sh"
 wget -P scripts/ https://raw.githubusercontent.com/Truitekifile/scripts/main/video.sh
 
 
-chmod 777 *
+chmod 777 scripts/*.sh
 
 echo
 echo "Terminé"
