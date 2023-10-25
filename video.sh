@@ -4,6 +4,7 @@ echo ""
 if ! command -v mpv &> /dev/null
 then
     echo "mpv n'est pas installé, veuillez executer le script d'installation pour corriger le probleme"
+    exit
 fi
 
 
