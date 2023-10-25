@@ -1,13 +1,17 @@
 echo "Ne pas run en root"
+echo ""
 
 if ! command -v mpv &> /dev/null
 then
-    apt install mpv
+    echo "mpv n'est pas installé, veuillez executer le script d'installation pour corriger le probleme"
 fi
+
 
 export DISPLAY=:0
 
+echo
 echo "Entrez le lien pour le téléchargement avec wget:"
+echo
 read link
 
 wget $link
