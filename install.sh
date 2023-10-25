@@ -9,19 +9,19 @@ cd /scripts
 
 echo
 echo "Obtention de hals.sh"
-wget https://raw.githubusercontent.com/Truitekifile/scripts/main/halt.sh
+wget -P scripts/ https://raw.githubusercontent.com/Truitekifile/scripts/main/halt.sh
 
 echo
 echo "Obtention de USB0.sh"
-wget https://raw.githubusercontent.com/Truitekifile/scripts/main/usb0.sh
+wget -P scripts/ https://raw.githubusercontent.com/Truitekifile/scripts/main/usb0.sh
 
 echo
 echo "Obtention de USB1.sh"
-wget https://raw.githubusercontent.com/Truitekifile/scripts/main/usb1.sh
+wget -P scripts/ https://raw.githubusercontent.com/Truitekifile/scripts/main/usb1.sh
 
 echo
 echo "Obtention de video.sh"
-wget https://raw.githubusercontent.com/Truitekifile/scripts/main/vido.sh
+wget -P scripts/ https://raw.githubusercontent.com/Truitekifile/scripts/main/vido.sh
 
 
 chmod 777 *
