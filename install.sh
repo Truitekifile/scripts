@@ -21,7 +21,7 @@ wget -P scripts/ https://raw.githubusercontent.com/Truitekifile/scripts/main/usb
 
 echo
 echo "Obtention de video.sh"
-wget -P scripts/ https://raw.githubusercontent.com/Truitekifile/scripts/main/vido.sh
+wget -P scripts/ https://raw.githubusercontent.com/Truitekifile/scripts/main/video.sh
 
 
 chmod 777 *
