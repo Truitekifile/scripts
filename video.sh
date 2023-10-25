@@ -1,3 +1,4 @@
+echo "Ne pas run en root"
 apt install mpv
 export DISPLAY=:0
 
